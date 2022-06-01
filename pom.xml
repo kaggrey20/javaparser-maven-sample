@@ -18,7 +18,6 @@
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <!-- Here are all your dependencies. Currently only one. These are automatically downloaded from https://mvnrepository.com/ -->
         <dependency>
@@ -27,7 +26,6 @@
             <version>3.23.1</version>
         </dependency>
     </dependencies>
-
     <!-- This blob of configuration tells Maven to make the jar executable. You can run it with:
     mvn clean package
     java -jar target/javaparser-maven-sample-1.0-SNAPSHOT-shaded.jar
